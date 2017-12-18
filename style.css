@@ -8,6 +8,10 @@ body{
   /* font-family: 'Open Sans', sans-serif; */
 }
 
+audio{
+  disply: none;
+}
+
 #background{
   display: flex;
   flex-direction: column;
