@@ -18,7 +18,6 @@ $(document).ready(function () {
         loop: false
     });
     // $('.tlt').textillate();
-
     $("img").mouseenter(() => {
         $(event.target).css({
             "opacity": "0.25",
@@ -31,22 +30,17 @@ $(document).ready(function () {
             "transform": "translateY(-2px)",
         })
     })
-
     $("img").click(() => {
         $("#statement")
             .addClass("animated slideInRight")
-            .html("Olee is a full-stack software engineer with a strong design background as an architect creating physical spaces.")
+            .html("Olee is a full-stack software developer with a strong design background. In her previous career as an architect, the process of designing skyscrapers trained her to break down complex problems into their constituent parts. No one could build the projects alone, it was always the result of collaborative effort. Due to that, she grew to be a team player.")
             .css({
-                "font-size": "3.5vh",
-                "margin": "5vh",
-                "padding": "5vh"
+                "font-size": "3vh",
             })
-    
         $("#olee").addClass("animated bounce").css("display", "block")
-    
-    
     })
-
-
+   
+    
+  
 });
 
