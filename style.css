@@ -78,7 +78,7 @@ border: 1px solid darkgray;
 #olee{
   background: transparent;
   position: relative;
-  top: 300px;
+  top: 250px;
   left: 600px;
   width:16vh;
   height:16vh;
@@ -123,20 +123,8 @@ border: 1px solid darkgray;
     }
     
 }
-/* @media only screen and (max-width: 1000px)
-  {
-    #olee{
-      background: transparent;
-      margin-top:-225px;
-      font-size: 1.75vh 
-    }
-    #statement{
-      height: 30vh;
-      width: 82vw;
-    } */
-   
 
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 1000px)
   {
     #olee{
       background: transparent;
