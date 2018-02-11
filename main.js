@@ -4,18 +4,18 @@ $(document).ready(function () {
         in: {
             effect: 'fadeInDown',
             shuffle: 'true',
-            delay: '50',
+            delay: '100',
             minDisplayTime: 500,
             initialDelay: 0,
         },
         out: {
-            effect: 'fadeInUp',
+            effect: 'hinge',
             shuffle: 'true',
-            minDisplayTime: 500,
+            minDisplayTime: 2000,
             initialDelay: 500,
         },
 
-        loop: false
+        loop: true
     });
     // $('.tlt').textillate();
     
