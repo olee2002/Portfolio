@@ -21,8 +21,8 @@ font-size: 1.5vh;
 #particles-js{
 height: 200vh;
 width: 100vw;
-border: 1px solid lightgray;
 position: fixed;
+border: 1px solid darkgray;
 /* z-index: -1; */
 }
 
@@ -38,15 +38,15 @@ position: fixed;
 #statement{
   font-family: 'Ubuntu', sans-serif;
   z-index: -1 ;
-  height: 50vw;
+  /* height: 50vw; */
   font-weight: bold;
   position: relative;
+  left: auto; 
   margin: 20px;
-  top: 300px;
-    right: 0px;
+  top: 40vh;
   font-size: 7vh;
   color: black;
-  text-align: justify;
+  /* text-align: center; */
   text-shadow: 1.5px 1.5px rgba(0, 0,0, 0.25);
 }
 
@@ -55,28 +55,31 @@ position: fixed;
   display: flex;
   /* flex-direction: column; */
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   position: fixed;
-  top: 500px;
-    left: 675px; 
-  font-size: 3vh;
+  top: 65vh;
+    left: auto; 
+  font-size: 2vh;
   font-weight: 900;
   color:rgb(3, 3, 3);
   z-index: 0 ;
 }
 #icon{
   opacity: 1;
-  width:5vh;
-  height:5vh;
+  width:5.25vh;
+  height:5.25vh;
   z-index: 0 ;
   text-align: center;
+  margin: 5px;
+  
   /* flex:1; */
 }
+
 #olee{
   background: transparent;
   position: relative;
-  top: 200px;
-  left: 580px;
+  top: 300px;
+  left: 600px;
   width:16vh;
   height:16vh;
   z-index: 0;
@@ -87,7 +90,7 @@ position: fixed;
 }
  .allworks{
   position: relative;
-  top: 200px;
+  top: 35vh;
   left: 280px;
   display: flex;
   flex-direction: row;
@@ -102,7 +105,7 @@ position: fixed;
   overflow: hidden;
   height:20vh;
   width:20vh;
-  box-shadow: 3px 3px rgba(0, 0,0, 0.05);
+  box-shadow: 3px 3px rgba(0, 0,0, 0.1);
 }
 
 
@@ -153,6 +156,7 @@ position: fixed;
       width:5.75vh;
       height:5.75vh;
       z-index: 0 ;
+      margin: 0px;
       text-align: center;
       /* flex:1; */
     }

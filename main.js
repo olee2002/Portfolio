@@ -34,7 +34,7 @@ $(document).ready(function () {
     $(".aboutMe").click(() => {
         $("#statement")
             .addClass("animated slideInRight")
-            .html("Olee is a full-stack software developer with a strong design background. In her previous career as an architect, the process of designing skyscrapers trained her to break down complex problems into their constituent parts. No one could build the projects alone, it was always the result of collaborative effort. Due to that, she grew to be a team player.")
+            .html("Olee is a full-stack software developer with a strong design background. In her previous career as an architect, the process of designing skyscrapers trained her to break down complex problems into their constituent parts. No one could build the projects alone, it was always the result of collaborative effort. Due to that, she grew to be an excellent team player.")
             .css({
                 "font-size": "2.75vh",
                 "text-shadow":"0.5px 0.5px rgba(0, 0,0, 0.25)"
