@@ -4,8 +4,7 @@
 
 html, body{
   font-family: 'Montserrat', sans-serif;
- 
-font-size: 1.5vh;
+  font-size: 1.5vh;
   padding: 0px;
   margin: 0px;
   /* font-family: 'Open Sans', sans-serif; */
@@ -42,7 +41,7 @@ border: 1px solid darkgray;
   font-weight: bold;
   position: relative;
   left: auto; 
-  margin: 20px;
+  margin: 40px;
   top: 40vh;
   font-size: 7vh;
   color: black;
@@ -58,7 +57,7 @@ border: 1px solid darkgray;
   align-items: center;
   position: fixed;
   top: 65vh;
-    left: auto; 
+  left: auto; 
   font-size: 2vh;
   font-weight: 900;
   color:rgb(3, 3, 3);
@@ -136,6 +135,8 @@ border: 1px solid darkgray;
       width: 95vw;
       text-align: right;
       top: 250px;
+      margin: 20px;
+      margin-left: 40px;
     }
 
     #icon{
@@ -151,14 +152,14 @@ border: 1px solid darkgray;
       flex-direction: column;
       position: fixed;
       top: 30px;
-        left: 20px; 
-        font-size: 7.5px;
-        color: white;
+      left: 20px; 
+      font-size: 7.5px;
+      color: white;
     }
     .allworks{
       position: relative;
       top: 20px;
-         left: 80px;
+      left: 80px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

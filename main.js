@@ -4,14 +4,14 @@ $(document).ready(function () {
         in: {
             effect: 'fadeInDown',
             shuffle: 'true',
-            delay: '100',
+            delay: '50',
             minDisplayTime: 500,
             initialDelay: 0,
         },
         out: {
-            effect: 'hinge',
+            effect: 'rotateOut',
             shuffle: 'true',
-            minDisplayTime: 2000,
+            minDisplayTime: 1000,
             initialDelay: 500,
         },
 
