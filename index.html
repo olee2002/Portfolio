@@ -15,30 +15,62 @@
 </head>
 
 <body>
-    <p id="copyright"> © 2018 Olee's Portfolio Site | contact Olee at babylee2002@gmail.com
-    </p>
+  <p id="copyright"> © 2018 Olee's Portfolio Site | contact Olee at babylee2002@gmail.com
+  </p>
   <div class="background">
-     
-
 
     <div class="allworks">
 
-      <a href="http://oleeshangmangame.bitballoon.com" title="Hangman - word game">
-        <img id="hang" class="work" src=images/hangman.jpg>
-      </a>
-      <a href="https://infinite-spire-33306.herokuapp.com" title="UpNext App - Loading may take a minute!">
-        <img id="upnext" class="work" src=images/upnext.jpg>
-      </a>
-      <a href="https://my-architecture.herokuapp.com" title="myArch App - Loading may take a minute!">
-        <img id="myarch" class="work" src=images/myarch.jpg>
-      </a>
-      <a href="http://olees.bitballoon.com" title="TBD">
-        <img id="holder" class="work" src=images/olee.png>
-      </a>
+      <div>
+        <div class="project">
+          <a href="http://oleeshangmangame.bitballoon.com" title="Hangman - word game">
+            <img id="hang" class="work" src=images/hangman.jpg>
+          </a>
+          <div id="hangman" class="projectInfo">
+            <p id="content"><strong>Hangman</strong><br/>
+              <br/>This is a simple word guessing game the basic idea of which is from the hangman game.
+              
+              <br/>Technologies: JavaScript, DOM, jQuery, and HTML/CSS
+              <br/> Click image to conitnue.. Watch out for the sound!
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://infinite-spire-33306.herokuapp.com" title="UpNext App - Loading may take a minute!">
+            <img id="upnext" class="work" src=images/upnext.jpg> </a>
+          <div id="upnextapp" class="projectInfo">
+            <p id="content"><strong>UpNext</strong> <br/><br/> This is a Full-stack application with 3 data models. This app with a built in timer for the each order
+              helps you monitor your food prep time so you don't need to wait in line.
+            
+              <br/> Technologies: MongoDB, Express, Node.js, and Handle-bar/CSS</p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://my-architecture.herokuapp.com" title="myArch App - Loading may take a minute!">
+            <img id="myarch" class="work" src=images/myarch.jpg>
+          </a>
+          <div id="myarchapp" class="projectInfo">
+            <p id="content"><strong>MyArchitecture</strong> <br/><br/> This is a Full-stack application with 3 data models.This app allows users to log in their favorite buildings in the cities they visit.
+
+              <br/> Technologies: MongoDB, Express, Node.js, and React Styled-Components</p>
+          </div>
+        </div>
+        <div class="project">
+          <a href="https://team-project.herokuapp.com/" title="CityPoint">
+            <img id="citypoint" class="work" src=images/citypoint.png>
+          </a>
+          <div id="citypointapp" class="projectInfo">
+            <p id="content"><strong>CityPoint</strong> <br/><br/> This is a Full-stack application with 3 data models with many to many relationship. This app allows user to write reviews for the cities they visited.
+
+              <br/> Technologies: Ruby on Rails, React,Styled-Components</p>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div>
       <a href="http://olees.bitballoon.com">
-        <img id="olee" src=images/olee.png>
+        <img id="olee" src=images/olee.jpg>
       </a>
     </div>
     <div id="particles-js" title="Click for more bubble!">
@@ -47,25 +79,27 @@
     </div>
 
     <div id="aside">
-        <a href="http://olees.bitballoon.com/" target="" title="Home">
+      <a href="http://olees.bitballoon.com/" target="" title="Home">
         <img id="icon" class="home" src=images/home.svg> </a> |
       <a href="#" target="" title="About me">
         <img id="icon" class="aboutMe" src=images/user.png> </a> |
       <a title="Works">
-        <img id="icon" class="works" src=images/works.png> </a> |
+        <img id="icon" class="works" src=images/works.png type="button" data-toggle="dropdown"> </a>
+    </div>
+    <div id="aside-bottom">
       <a href="https://github.com/olee2002" target="_blank" title="GitHub">
         <img id="icon" src=images/github.png> </a>|
       <a href="https://www.linkedin.com/in/ok-hyun-lee-8467877" target="_blank" title="LinkedIn">
-        <img id="icon"  src=images/linked.png> </a>|
+        <img id="icon" src=images/linked.png> </a>|
       <a href="mailto:babylee2002@gmail.com" target="" title="Email">
         <img id="icon" src=images/mail.png> </a>
     </div>
 
-    <div class="tlt" id="statement">
+
+    <div class="tlt" id="statement" data-in-effect="fadeIn">
       Hello! Welcome to Olee's Site
-
-
     </div>
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="jquery.fittext.js"></script>
