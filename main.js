@@ -5,17 +5,17 @@ $(document).ready(function () {
             effect: 'fadeInDown',
             shuffle: 'true',
             delay: '75',
-            minDisplayTime: 500,
+            minDisplayTime: 1000,
             initialDelay: 0,
             callback: function () {
-                // $('.tlt').textillate('out');
+                $('.tlt').textillate('out');
             }
         },
         out: {
             effect: 'rotateOut',
             shuffle: 'true',
             minDisplayTime: 1000,
-            initialDelay: 500,
+            initialDelay: 1000,
             callback: function () {
                 $('.tlt').textillate('stop');
             }
