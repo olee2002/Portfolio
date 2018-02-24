@@ -4,11 +4,11 @@ $(document).ready(function () {
         in: {
             effect: 'fadeInDown',
             shuffle: 'true',
-            delay: '75',
+            delay: '50',
             minDisplayTime: 1000,
             initialDelay: 0,
             callback: function () {
-                $('.tlt').textillate('out');
+                $('.tlt').textillate('out')
             }
         },
         out: {
@@ -16,12 +16,30 @@ $(document).ready(function () {
             shuffle: 'true',
             minDisplayTime: 1000,
             initialDelay: 1000,
+            delay: '75',
             callback: function () {
-                $('.tlt').textillate('stop');
-            }
+               $('.tlt').textillate('stop')
+               $('.tlt')
+               .html('Click for more bubbles!')
+               .addClass("animated zoomIn")
+               .css({
+                   "font-size":"32px",
+                   "font-family": "Montserrat, sans-serif",
+            }).textillate({
+                in: {
+                    effect: 'rollIn',
+                    shuffle: 'true',
+                    delay: '50',
+                    minDisplayTime: 5000,
+                    initialDelay: 0}
+            })
+               
+            },
         },
+        
         loop: false,
     })
+
 
     $("img").mouseenter(() => {
         $(event.target).css({
