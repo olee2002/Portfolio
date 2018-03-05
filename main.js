@@ -41,13 +41,13 @@ $(document).ready(function () {
     })
 
 
-    $("img").mouseenter(() => {
+    $("#icon").mouseenter(() => {
         $(event.target).css({
             "opacity": "0.25",
             "transform": "translateY(-2px)",
         })
     })
-    $("img").mouseleave(() => {
+    $("#icon").mouseleave(() => {
         $(event.target).css({
             "opacity": "1",
             "transform": "translateY(2px)",
@@ -79,8 +79,13 @@ $(document).ready(function () {
         $("#olee").addClass("animated bounce").css("display", "none")
     })
 
-
-
+    $('#lightSlider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop: true,
+        slideMargin: 0,
+        thumbItem: 9
+    });
 
 
 });
