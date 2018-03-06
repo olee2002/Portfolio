@@ -138,8 +138,8 @@ border: 1px solid darkgray;
   margin:3.5px;
   border: 1px solid darkgray;
   overflow: hidden;
-  height:17.5vh;
-  width:17.5vh;
+  height:45vh;
+  width:45vh;
   text-decoration: none;
   box-shadow: 3px 3px rgba(0, 0,0, 0.1);
 }
@@ -153,8 +153,8 @@ border: 1px solid darkgray;
   margin:3.5px;
   border: 1px solid darkgray;
   /* display: none; */
-  height:17.5vh;
-  width:75vh;
+  height:45vh;
+  width:45vh;
   font-size: 2vh;
   position: relative;
   text-decoration: none;
@@ -205,8 +205,8 @@ border: 1px solid darkgray;
         margin:3.5px;
         border: 1px solid darkgray;
         overflow-x: hidden;
-        height:27.5vh;
-        width:27.5vh;
+        height:40vh;
+        width:40vh;
         box-shadow: 3px 3px rgba(0, 0,0, 0.1);
       }
       .projectInfo{

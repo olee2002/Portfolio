@@ -20,20 +20,12 @@ $(document).ready(function () {
             callback: function () {
                $('.tlt').textillate('stop')
                $('.tlt')
-               .html('Click for more bubbles!')
-               .addClass("animated zoomIn")
+               .html('Click For More Bubbles!')
+               .addClass("animated fadeInDown")
                .css({
-                   "font-size":"32px",
+                   "font-size":"35px",
                    "font-family": "Montserrat, sans-serif",
-            }).textillate({
-                in: {
-                    effect: 'rollIn',
-                    shuffle: 'true',
-                    delay: '50',
-                    minDisplayTime: 5000,
-                    initialDelay: 0}
             })
-               
             },
         },
         
