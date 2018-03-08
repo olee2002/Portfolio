@@ -18,17 +18,17 @@ $(document).ready(function () {
             initialDelay: 1000,
             delay: '75',
             callback: function () {
-               $('.tlt').textillate('stop')
-               $('.tlt')
-               .html('Click For More Bubbles!')
-               .addClass("animated fadeInDown")
-               .css({
-                   "font-size":"35px",
-                   "font-family": "Montserrat, sans-serif",
-            })
+                $('.tlt').textillate('stop')
+                $('.tlt')
+                    .html('Click For More Bubbles!')
+                    .addClass("animated fadeInDown")
+                    .css({
+                        "font-size": "35px",
+                        "font-family": "Montserrat, sans-serif",
+                    })
             },
         },
-        
+
         loop: false,
     })
 
@@ -54,8 +54,11 @@ $(document).ready(function () {
                 "font-size": "2.65vh",
                 "text-shadow": "0px 0px rgba(0, 0,0, 0.25)",
                 "font-family": "Montserrat, sans-serif",
-                "top": "225px"
+                "top": "225px",
+                "width":"60vh",
+                ""
             })
+            
         $("#olee").addClass("animated bounce").css("display", "block")
         $(".allworks").css({
             "display": "none",
