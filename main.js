@@ -33,16 +33,16 @@ $(document).ready(function () {
     })
 
 
-    $("img").mouseenter(() => {
+    $("a").mouseenter(() => {
         $(event.target).css({
-            "opacity": "0.25",
-            "transform": "translateY(-2px)",
+            "opacity": "0.5",
+            "transform": "translateY(-1px)",
         })
     })
-    $("img").mouseleave(() => {
+    $("a").mouseleave(() => {
         $(event.target).css({
             "opacity": "1",
-            "transform": "translateY(2px)",
+            "transform": "translateY(1px)",
         })
     })
 
@@ -55,8 +55,7 @@ $(document).ready(function () {
                 "text-shadow": "0px 0px rgba(0, 0,0, 0.25)",
                 "font-family": "Montserrat, sans-serif",
                 "top": "225px",
-                "width":"60vh",
-                ""
+                "width":"50vh",
             })
             
         $("#olee").addClass("animated bounce").css("display", "block")
