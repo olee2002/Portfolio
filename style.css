@@ -120,13 +120,24 @@ position: fixed;
 #olee{
   background: transparent;
   position: relative;
-  top: 217.5px;
+  top: 115px;
   left: auto;
   width:40vh;
   height:30vh;
   z-index: 0;
   border-radius:3vh;
   border: 1px solid white;
+  display:none;
+}
+
+#youtube01{
+  background: transparent;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  left: auto;
+  text-decoration: none;
+  z-index: 0;
   display:none;
 }
 

@@ -26,10 +26,10 @@ $(document).ready(function () {
                         "font-size": "35px",
                         "font-family": "Montserrat, sans-serif",
                         "animation-duration": "7s",
-                        "animation-delay":"0.5s"
+                        "animation-delay": "0.5s"
                     })
-                
-                    
+
+
             },
         },
         loop: false,
@@ -58,10 +58,11 @@ $(document).ready(function () {
                 "font-family": "Montserrat, sans-serif",
                 "top": "225px",
                 "animation-duration": "4s",
-                "animation":"0"
+                "animation": "0"
             })
-            
+
         $("#olee").addClass("animated bounce").css("display", "block")
+        $("#youtube01").css("display", "none")
         $(".allworks").css({
             "display": "none",
         })
@@ -74,14 +75,15 @@ $(document).ready(function () {
             "z-index": "10"
         })
         $("#olee").addClass("animated bounce").css("display", "none")
+        $("#youtube01").css("display", "none")
     })
     $(".design").click(() => {
-        $("#olee").addClass("animated bounce").css("display", "block")
+        $("#youtube01").css("display", "block")
         $("#statement")
-            .html('This page is coming soon!')
-            $(".allworks").css({
-                "display": "none",
-            })
+            .html('')
+        $(".allworks").css({
+            "display": "none",
+        })
     })
 
 
