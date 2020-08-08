@@ -3,4 +3,4 @@ Personal Portfolio
 
 
 ###Portfolio Site
-http://olees.bitballoon.com/
+https://olees-portfolio.netlify.com/
